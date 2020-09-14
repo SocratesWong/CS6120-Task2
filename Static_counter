@@ -1,0 +1,9 @@
+#!/bin/bash
+echo -n Number of add instruction: 
+grep -o -i add $1 | wc -l
+echo -n Number of mul instruction: 
+grep -o -i mul $1 | wc -l
+echo -n Number of sub instruction: 
+grep -o -i sub $1 | wc -l
+echo -n Number of div instruction: 
+grep -o -i div $1 | wc -l
